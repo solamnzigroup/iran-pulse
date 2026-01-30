@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خط زمانی | پالس ایران</title>
+    <meta name="description" content="خط زمانی رویدادهای بحران جاری ایران.">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/rtl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌙</text></svg>">
+    <style>
+        .timeline-full {
+            position: relative;
+            padding-right: 2rem;
+            padding-left: 0;
+        }
+        .timeline-full::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            left: auto;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--border-color);
+        }
+        .timeline-entry {
+            position: relative;
+            padding-bottom: 2rem;
+        }
+        .timeline-entry::before {
+            content: '';
+            position: absolute;
+            right: -2rem;
+            left: auto;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--bg-card);
+            border: 2px solid var(--accent-primary);
+        }
+        .timeline-entry.major::before {
+            background: var(--accent-primary);
+            box-shadow: 0 0 12px var(--accent-primary);
+        }
+        .timeline-entry-date {
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: var(--accent-secondary);
+            margin-bottom: 0.5rem;
+        }
+        .timeline-entry-title {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .timeline-entry-content {
+            color: var(--text-secondary);
+            font-size: 0.9375rem;
+        }
+        .timeline-month {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin: 2rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/fa/" class="logo">
+                <span class="logo-icon">🌙</span>
+                <span class="logo-text">پالس ایران</span>
+            </a>
+            <div class="nav-links">
+                <a href="/fa/">خانه</a>
+                <a href="timeline.html" class="active">خط زمانی</a>
+                <a href="analysis.html">تحلیل</a>
+                <a href="reflections.html">تأملات</a>
+                <a href="about.html">درباره</a>
+            </div>
+            <button class="lang-toggle" onclick="window.location.href='../timeline.html'">English</button>
+        </div>
+    </nav>
+
+    <main class="container" style="padding-top: 3rem; padding-bottom: 3rem; max-width: 800px;">
+        <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">📅 خط زمانی</h1>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem;">رویدادهای بحران جاری ایران به ترتیب زمانی</p>
+
+        <div class="timeline-full">
+            <h2 class="timeline-month">بهمن ۱۴۰۴ (ژانویه ۲۰۲۶)</h2>
+            
+            <div class="timeline-entry major">
+                <div class="timeline-entry-date">۱۰ بهمن ۱۴۰۴ (۳۰ ژانویه)</div>
+                <div class="timeline-entry-title">ترامپ: «کشتی‌های زیادی به سمت ایران می‌فرستیم»</div>
+                <div class="timeline-entry-content">
+                    رئیس‌جمهور ترامپ می‌گوید نیروهای دریایی آمریکا به سمت ایران حرکت می‌کنند و ادعا می‌کند رهبران ایران «می‌خواهند به توافق برسند». کاخ سفید درباره زمان‌بندی یا شرایط توضیح بیشتری نمی‌دهد.
+                </div>
+            </div>
+
+            <div class="timeline-entry major">
+                <div class="timeline-entry-date">۱۰ بهمن ۱۴۰۴</div>
+                <div class="timeline-entry-title">تحریم وزیر کشور و بابک زنجانی توسط آمریکا</div>
+                <div class="timeline-entry-content">
+                    وزارت خزانه‌داری تحریم‌های جدید علیه هفت مقام ایرانی از جمله اسکندر مومنی و بابک زنجانی اعلام می‌کند. اولین بار است که آمریکا صرافی‌های دیجیتال مرتبط با سپاه را تحریم می‌کند.
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">۱۰ بهمن ۱۴۰۴</div>
+                <div class="timeline-entry-title">دیدار عراقچی با وزیر خارجه ترکیه در استانبول</div>
+                <div class="timeline-entry-content">
+                    وزیر خارجه ایران می‌گوید ایران آماده مذاکرات «معنادار و عادلانه» است اما شرایط دیکته‌شده را نمی‌پذیرد. فیدان می‌گوید قبل از دیدار با نماینده ترامپ صحبت کرده و به دنبال راه‌حل دیپلماتیک است.
+                </div>
+            </div>
+
+            <div class="timeline-entry major">
+                <div class="timeline-entry-date">۹ بهمن ۱۴۰۴ (۲۹ ژانویه)</div>
+                <div class="timeline-entry-title">اتحادیه اروپا سپاه پاسداران را تروریستی اعلام کرد</div>
+                <div class="timeline-entry-content">
+                    اتحادیه اروپا رسماً سپاه پاسداران را در لیست تروریستی قرار می‌دهد. تنش دیپلماتیک بزرگ. لاریجانی در پاسخ ارتش‌های اتحادیه اروپا را «سازمان‌های تروریستی» می‌خواند.
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">۹ بهمن ۱۴۰۴</div>
+                <div class="timeline-entry-title">کروبی: بحران نتیجه سیاست‌های خامنه‌ای است</div>
+                <div class="timeline-entry-content">
+                    مهدی کروبی در بیانیه‌ای رهبر را مسئول «وضعیت اسفبار» ایران می‌داند. این پس از فراخوان موسوی به رهبران برای «زمین گذاشتن تفنگ‌ها و کناره‌گیری» است.
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">۸ بهمن ۱۴۰۴ (۲۸ ژانویه)</div>
+                <div class="timeline-entry-title">ایتالیا از شهروندان خواست ایران را ترک کنند</div>
+                <div class="timeline-entry-content">
+                    وزارت خارجه ایتالیا به شهروندان می‌گوید فوراً ایران را ترک کنند. چندین کشور غربی هشدارهای مشابه صادر کرده‌اند.
+                </div>
+            </div>
+
+            <div class="timeline-entry major">
+                <div class="timeline-entry-date">۷ بهمن ۱۴۰۴ (۲۷ ژانویه)</div>
+                <div class="timeline-entry-title">تهدید ترامپ: حمله بعدی «خیلی بدتر» خواهد بود</div>
+                <div class="timeline-entry-content">
+                    رئیس‌جمهور ترامپ در تروث سوشال به ایران هشدار می‌دهد که اگر پای میز مذاکره نیایند، «حمله بعدی خیلی بدتر» از «چکش نیمه‌شب» خواهد بود.
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">۲۸-۲۹ دی ۱۴۰۴ (۱۸-۱۹ ژانویه)</div>
+                <div class="timeline-entry-title">سرکوب گسترده معترضان</div>
+                <div class="timeline-entry-content">
+                    نیروهای امنیتی سرکوب هماهنگ را آغاز می‌کنند. بازداشت‌ها به هزاران نفر می‌رسد. محدودیت‌های اینترنت تشدید می‌شود. گزارش‌های متعدد از کشته‌شدگان با گلوله.
+                </div>
+            </div>
+
+            <h2 class="timeline-month">دی ۱۴۰۴ (دسامبر ۲۰۲۵)</h2>
+
+            <div class="timeline-entry major">
+                <div class="timeline-entry-date">۷ دی ۱۴۰۴ (۲۷ دسامبر ۲۰۲۵)</div>
+                <div class="timeline-entry-title">آغاز اعتراضات</div>
+                <div class="timeline-entry-content">
+                    اعتراضات در چندین شهر بر سر شرایط اقتصادی — تورم، سقوط ارزش پول، بیکاری — آغاز می‌شود. در ابتدا اقتصادی، اما به سرعت سیاسی می‌شود. شعارها علیه رژیم ظرف چند روز شروع می‌شود.
+                </div>
+            </div>
+
+            <h2 class="timeline-month">پیشینه تاریخی</h2>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">شهریور ۱۴۰۱ (سپتامبر ۲۰۲۲)</div>
+                <div class="timeline-entry-title">جنبش زن، زندگی، آزادی</div>
+                <div class="timeline-entry-content">
+                    مرگ مهسا امینی اعتراضات سراسری را برمی‌انگیزد. جنبش ماه‌ها ادامه می‌یابد و با سرکوب وحشیانه مواجه می‌شود. زمینه‌ساز ناآرامی‌های کنونی.
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">آبان ۱۳۹۸ (نوامبر ۲۰۱۹)</div>
+                <div class="timeline-entry-title">اعتراضات «آبان خونین»</div>
+                <div class="timeline-entry-content">
+                    افزایش قیمت بنزین اعتراضات را برمی‌انگیزد. دولت با خشونت مرگبار پاسخ می‌دهد. برآورد +۱۵۰۰ کشته. الگوی سرکوب خشونت‌آمیز را تثبیت می‌کند.
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">دی ۱۳۹۶ (۲۰۱۷-۲۰۱۸)</div>
+                <div class="timeline-entry-title">اعتراضات دی‌ماه</div>
+                <div class="timeline-entry-content">
+                    اعتراضات اقتصادی در سراسر ایران گسترش می‌یابد. اولین بار که شعارها صراحتاً خواستار تغییر رژیم می‌شوند. پیش‌درآمد بحران کنونی.
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+                <p>ساخته شده با عشق توسط <a href="https://heysola.com">سولا</a> ☀️</p>
+                <p class="disclaimer">خط زمانی با تحولات به‌روز می‌شود. همیشه با منابع متعدد تأیید کنید.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
