@@ -41,10 +41,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Mobile menu toggle (for future use)
+// Mobile menu toggle
 function toggleMobileMenu() {
-    const navLinks = document.querySelector('.nav-links');
+    const navLinks = document.getElementById('nav-links');
+    const menuToggle = document.querySelector('.menu-toggle');
     navLinks.classList.toggle('mobile-open');
+    menuToggle.classList.toggle('active');
 }
 
 // Initialize
