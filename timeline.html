@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline | Iran Pulse</title>
+    <meta name="description" content="Chronological timeline of events in Iran's ongoing crisis.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌙</text></svg>">
+    <style>
+        .timeline-full {
+            position: relative;
+            padding-left: 2rem;
+        }
+        .timeline-full::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--border-color);
+        }
+        .timeline-entry {
+            position: relative;
+            padding-bottom: 2rem;
+        }
+        .timeline-entry::before {
+            content: '';
+            position: absolute;
+            left: -2rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--bg-card);
+            border: 2px solid var(--accent-primary);
+        }
+        .timeline-entry.major::before {
+            background: var(--accent-primary);
+            box-shadow: 0 0 12px var(--accent-primary);
+        }
+        .timeline-entry-date {
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: var(--accent-secondary);
+            margin-bottom: 0.5rem;
+        }
+        .timeline-entry-title {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .timeline-entry-content {
+            color: var(--text-secondary);
+            font-size: 0.9375rem;
+        }
+        .timeline-month {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin: 2rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <span class="logo-icon">🌙</span>
+                <span class="logo-text">Iran Pulse</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="timeline.html" class="active">Timeline</a>
+                <a href="analysis.html">Analysis</a>
+                <a href="about.html">About</a>
+            </div>
+            <button class="lang-toggle" onclick="toggleLanguage()">فارسی</button>
+        </div>
+    </nav>
+
+    <main class="container" style="padding-top: 3rem; padding-bottom: 3rem; max-width: 800px;">
+        <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">📅 Timeline</h1>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Chronological events of Iran's ongoing crisis</p>
+
+        <div class="timeline-full">
+            <h2 class="timeline-month">January 2026</h2>
+            
+            <div class="timeline-entry major">
+                <div class="timeline-entry-date">January 30, 2026</div>
+                <div class="timeline-entry-title">Trump: "Sending a Lot of Ships to Iran"</div>
+                <div class="timeline-entry-content">
+                    President Trump says US naval forces moving toward Iran, claims Iranian leaders "want to make a deal." Says his threat stopped 837 planned executions. White House declines to elaborate on timeline or conditions.
+                </div>
+            </div>
+
+            <div class="timeline-entry major">
+                <div class="timeline-entry-date">January 30, 2026</div>
+                <div class="timeline-entry-title">US Sanctions Interior Minister, Babak Zanjani</div>
+                <div class="timeline-entry-content">
+                    Treasury Department announces new sanctions against seven Iranian officials including Interior Minister Eskander Momeni and billionaire fraudster Babak Zanjani. First time US sanctions crypto exchanges linked to IRGC.
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">January 30, 2026</div>
+                <div class="timeline-entry-title">Araghchi Meets Turkish FM in Istanbul</div>
+                <div class="timeline-entry-content">
+                    Iran's Foreign Minister Araghchi says Iran ready for "meaningful and fair" negotiations but won't accept dictated terms. Turkey's Fidan says he spoke with Trump's envoy before meeting, seeking diplomatic solution.
+                </div>
+            </div>
+
+            <div class="timeline-entry major">
+                <div class="timeline-entry-date">January 29, 2026</div>
+                <div class="timeline-entry-title">EU Designates IRGC as Terrorist Organization</div>
+                <div class="timeline-entry-content">
+                    European Union formally adds Islamic Revolutionary Guard Corps to terrorism list. Major diplomatic escalation. Iran's Larijani responds by declaring EU armies "terrorist organizations."
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">January 29, 2026</div>
+                <div class="timeline-entry-title">Karroubi: Crisis is Khamenei's Fault</div>
+                <div class="timeline-entry-content">
+                    Opposition figure Mehdi Karroubi issues statement blaming Supreme Leader for Iran's "deplorable situation." Follows Mousavi's call for regime to "put down guns and step aside."
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">January 28, 2026</div>
+                <div class="timeline-entry-title">Italy Urges Citizens to Leave Iran</div>
+                <div class="timeline-entry-content">
+                    Italian Foreign Ministry tells citizens to leave Iran immediately. Multiple Western countries have issued similar advisories.
+                </div>
+            </div>
+
+            <div class="timeline-entry major">
+                <div class="timeline-entry-date">January 27, 2026</div>
+                <div class="timeline-entry-title">Trump Threatens "Much Worse" Attack</div>
+                <div class="timeline-entry-content">
+                    President Trump posts on Truth Social warning Iran that if they don't come to the negotiating table, "the next attack will be much worse" than "Midnight Hammer."
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">January 18-19, 2026</div>
+                <div class="timeline-entry-title">Massive Crackdown on Protesters</div>
+                <div class="timeline-entry-content">
+                    Security forces launch coordinated crackdown. Arrests surge into thousands. Internet restrictions tighten. Multiple deaths reported from live ammunition.
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">January 10, 2026</div>
+                <div class="timeline-entry-title">Internet Blackout Expands</div>
+                <div class="timeline-entry-content">
+                    Iran implements near-total internet blackout. Limited VPN access requires millions of tomans for hours of connectivity. Described as most severe communications shutdown since 2019.
+                </div>
+            </div>
+
+            <h2 class="timeline-month">December 2025</h2>
+
+            <div class="timeline-entry major">
+                <div class="timeline-entry-date">December 27, 2025 (7 Dey 1404)</div>
+                <div class="timeline-entry-title">Protests Begin</div>
+                <div class="timeline-entry-content">
+                    Protests erupt in multiple cities over economic conditions — inflation, currency collapse, unemployment. Initially economic grievances, rapidly become political. Chants against regime begin within days.
+                </div>
+            </div>
+
+            <h2 class="timeline-month">Background Context</h2>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">September 2022</div>
+                <div class="timeline-entry-title">Woman, Life, Freedom Movement</div>
+                <div class="timeline-entry-content">
+                    Death of Mahsa Amini sparks nationwide protests. Movement lasts months, faces brutal crackdown. Sets stage for current unrest.
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">November 2019</div>
+                <div class="timeline-entry-title">"Bloody November" Protests</div>
+                <div class="timeline-entry-content">
+                    Fuel price hike sparks protests. Government responds with lethal force. Estimates of 1,500+ killed. Establishes pattern of violent crackdown.
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-entry-date">2017-2018</div>
+                <div class="timeline-entry-title">Dey Protests</div>
+                <div class="timeline-entry-content">
+                    Economic protests spread across Iran. First time chants explicitly call for regime change. Precursor to current crisis.
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+                <p>Made with care by <a href="https://heysola.com">Sola</a> ☀️</p>
+                <p class="disclaimer">Timeline updated as events develop. Always verify with multiple sources.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* RTL styles for Farsi */
+[dir="rtl"] {
+    font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+[dir="rtl"] .nav-container {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav-links {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .logo {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .hero-meta {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .alert-banner {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .news-meta {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .analysis-header {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .analysis-header time {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+[dir="rtl"] .timeline-full {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+[dir="rtl"] .timeline-full::before {
+    left: auto;
+    right: 0;
+}
+
+[dir="rtl"] .timeline-entry::before {
+    left: auto;
+    right: -2rem;
+}
+
+[dir="rtl"] .timeline-item {
+    border-left: none;
+    border-right: 2px solid var(--border-color);
+    padding-left: 0;
+    padding-right: var(--space-md);
+    margin-left: 0;
+    margin-right: var(--space-sm);
+}
+
+[dir="rtl"] .timeline-item.current {
+    border-right-color: var(--accent-primary);
+}
+
+[dir="rtl"] .read-more::after {
+    content: ' ←';
+}
+
+[dir="rtl"] .read-more {
+    direction: ltr;
+}
+
+[dir="rtl"] .footer-content {
+    direction: rtl;
+}
+
+[dir="rtl"] ul {
+    padding-right: 1.5rem;
+    padding-left: 0;
+}
+
+/* Persian number styling */
+[dir="rtl"] .stat-number {
+    font-feature-settings: "ss01";
+}
